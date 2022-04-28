@@ -122,6 +122,13 @@ body ul {
     align-items: center;
 }
 
+.proximo:hover{
+    border: 1px solid #F2B135;
+}
+.voltar:hover{
+    border: 1px solid #F2B135;
+}
+
 .voltar {
     display: flex;
     justify-content: flex-start;
@@ -157,8 +164,12 @@ body ul {
         display: flex;
         flex-direction: row;
     }
-    .foto img, button {
+    .foto img {
         width: 10%;
+    }
+
+    .foto button {
+        width: 15%;
     }
 
 }
