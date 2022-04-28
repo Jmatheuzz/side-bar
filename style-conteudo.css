@@ -105,8 +105,8 @@ body ul {
 
 }
 .navigation .proximo,.voltar {
-    width: 49%;
-    height: 100px;
+    width: 20%;
+    height: 50px;
     border: 1px solid black;
     text-align: center;
     background-color: white;
@@ -144,13 +144,6 @@ body ul {
 @media (max-width: 800px){
     .menu {
         display: none;
-    }
-    .navigation .proximo,.voltar {
-        height: 50px;
-        border: 1px solid black;
-        text-align: center;
-        background-color: white;
-        cursor: pointer;
     }
     .app {
         width: 100%;
