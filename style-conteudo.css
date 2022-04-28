@@ -110,6 +110,7 @@ body ul {
     border: 1px solid black;
     text-align: center;
     background-color: white;
+    cursor: pointer;
 }
 
 .navigation .voltar img, .proximo img  {
@@ -122,10 +123,10 @@ body ul {
     align-items: center;
 }
 
-.proximo:hover{
+.navigation .proximo:hover{
     border: 1px solid #F2B135;
 }
-.voltar:hover{
+.navigation .voltar:hover{
     border: 1px solid #F2B135;
 }
 
