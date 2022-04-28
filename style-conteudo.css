@@ -145,10 +145,7 @@ body ul {
     .menu {
         display: none;
     }
-
     .navigation .proximo,.voltar {
-        width: 35%;
-        height: 50px;
         border: 1px solid black;
         text-align: center;
         background-color: white;
