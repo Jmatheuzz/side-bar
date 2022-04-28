@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body ul {
+    list-style-type: none;
+}
+
+.app {
+    width: 95vw;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.foto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.foto img, button{
+    width: 105px;
+    margin: 10px;
+}
+
+.foto h1 {
+    width: 150px;
+}
+
+.nome {
+    text-align: center;
+}
+
+.foto button {
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(232, 197, 0);
+    cursor: pointer;
+}
+
+.side-bar {
+    width: 20%;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+
+.info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.info h3 {
+    display: flex;
+    align-items: center;
+}
+
+.info h3 img {
+    margin-right: 10px;
+}
+
+.left {
+    width: 90%;
+    align-items: center;
+}
+
+
+.info img {
+    height: 25px;
+}
+
+.info .img-section {
+    height: 15px;
+}
+
+.section {
+    cursor: pointer;
+    margin: 10px;
+
+}
+.sub-section {
+    display: none;
+}
+
+.sub-title{
+    display: block;
+    margin:10px;
+    margin-left: 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+
+}
+.navigation .proximo,.voltar {
+    width: 49%;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+}
+
+.navigation .voltar img, .proximo img  {
+    margin: 0 10px;
+}
+
+.proximo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.voltar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.disable {
+    display: none;
+}
+
+
+@media (max-width: 800px){
+    .menu {
+        display: none;
+    }
+    .app {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .side-bar {
+        width: 100%;
+    }
+    .container {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    
+    .foto {
+        display: flex;
+        flex-direction: row;
+    }
+    .foto img, button {
+        width: 10%;
+    }
+
+}
